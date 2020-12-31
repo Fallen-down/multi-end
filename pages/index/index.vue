@@ -26,6 +26,7 @@
 			<text class="title">{{title}}</text>
 			<u-action-sheet :list="list" v-model="show"></u-action-sheet>
 		</view>
+		<u-icon name="check-circle" custom-prefix="custom-icon" size="30" color="#f8f"></u-icon>
 	</view>
 </template>
 
