@@ -1,0 +1,63 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "uni-app",
+			"navigationStyle": "custom",
+			"app-plus": {},
+			"h5": {}
+		}
+	}],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "无讼",
+		"navigationBarBackgroundColor": "#2979FF",
+		"backgroundColor": "#fff",
+		"enablePullDownRefresh": true,
+		"backgroundTextStyle": "dark"
+	},
+	"tabBar": {
+		"color": "#5E5E5E",
+		"selectedColor": "#2979FF",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"spacing": "3px",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png",
+			"text": "组件"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png",
+			"text": "接口"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png",
+			"text": "组件"
+		}, {
+			"pagePath": "pages/index/index",
+			"iconPath": "static/logo.png",
+			"selectedIconPath": "static/logo.png",
+			"text": "接口"
+		}]
+	},
+	"condition": {
+		"current": 1,
+		"list": [{
+				"name": "swiper", //模式名称
+				"path": "pages/index/index",
+				"query": "interval=4000&autoplay=false"
+			},
+			{
+				"name": "test",
+				"path": "pages/index/index"
+			}
+		]
+	}
+}

@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "custom-icon";
+	src: url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2');
+}
+
+.custom-icon {
+	font-family: "custom-icon" !important;
+	font-size: 16px;
+	font-style: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.custom-icon-check-circle:before {
+	content: "\e77d";
+}
+
+.custom-icon-CI:before {
+	content: "\e77e";
+}
+
+.custom-icon-Dollar:before {
+	content: "\e77f";
+}
+
+.custom-icon-compass:before {
+	content: "\e780";
+}
+
+.custom-icon-close-circle:before {
+	content: "\e781";
+}
+
+.custom-icon-frown:before {
+	content: "\e782";
+}
+
+.custom-icon-info-circle:before {
+	content: "\e783";
+}
+
+.custom-icon-left-circle:before {
+	content: "\e784";
+}
+
+.custom-icon-down-circle:before {
+	content: "\e785";
+}
+
+.custom-icon-EURO:before {
+	content: "\e786";
+}
+
+.custom-icon-copyright:before {
+	content: "\e787";
+}
+
+.custom-icon-minus-circle:before {
+	content: "\e788";
+}
+
+.custom-icon-meh:before {
+	content: "\e789";
+}
+
+.custom-icon-plus-circle:before {
+	content: "\e78a";
+}
+
+.custom-icon-play-circle:before {
+	content: "\e78b";
+}
+
+.custom-icon-question-circle:before {
+	content: "\e78c";
+}
+
+.custom-icon-Pound:before {
+	content: "\e78d";
+}
+
+.custom-icon-right-circle:before {
+	content: "\e78e";
+}
